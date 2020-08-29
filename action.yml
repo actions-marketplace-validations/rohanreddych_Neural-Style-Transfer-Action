@@ -1,0 +1,8 @@
+name: "Neural Style Transfer Action"
+description: "Applies Style Transfer on Images in a repository"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: "image"
+  color: "blue"

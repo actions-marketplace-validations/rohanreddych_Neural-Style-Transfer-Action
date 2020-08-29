@@ -29,6 +29,11 @@ def tensor_to_image(tensor):
   return PIL.Image.fromarray(tensor)
 
 
+style_image_path = "assets/style.png"
+style_image = load_img(style_image_path)
+
+
+
 hub_module = hub.load('https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/1')
 stylized_image = hub_module(tf.constant(content_image), tf.constant(style_image))[0]
 tensor_to_image(stylized_image)

@@ -1,3 +1,4 @@
 tensorflow-hub
 tensorflow
 Pillow
+numpy

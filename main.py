@@ -40,5 +40,5 @@ def mian():
 
   
 for path, subdirs, files in os.walk("."):
-  for name in files:
+  for name in subdirs:
     print(name)

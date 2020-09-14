@@ -39,6 +39,8 @@ def mian():
   tensor_to_image(stylized_image)
 
   
-for path, subdirs, files in os.walk("."):
-  for name in subdirs:
-    print(name)
+#for path, subdirs, files in os.walk("."):
+#  print(path)
+
+print(tf.__version__)
+

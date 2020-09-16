@@ -42,6 +42,6 @@ def mian():
 print(tf.__version__)
 for root, dirs, files in os.walk("."):
   for file in files:
-    if (file.endswith(".jpg") or file.endswith(".png") or file.endswith(".tiff") or file.endswit(".jpeg")):
+    if (file.endswith(".jpg") or file.endswith(".png") or file.endswith(".tiff") or file.endswith(".jpeg")):
       print(os.path.join(root, file))
 

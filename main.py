@@ -45,3 +45,5 @@ for root, dirs, files in os.walk("."):
     if (file.endswith(".jpg") or file.endswith(".png") or file.endswith(".tiff") or file.endswith(".jpeg")):
       print(os.path.join(root, file))
 
+style_img = PIL.Image.open("assets/sn.png")
+print(style_img[0])
